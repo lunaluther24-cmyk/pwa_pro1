@@ -1,0 +1,133 @@
+
+
+/*body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+h1 {
+  color: #2e7d32;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+#challenge {
+  background-color: #fff;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 25px;
+  margin: 20px;
+  width: 85%;
+  max-width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  line-height: 2;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+#challenge:hover {
+  transform: scale(1.01);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+  transform: scale(1.03);
+}*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #fce4ec, #f3e5f5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+#challenge {
+  background: white;
+  color: #4a148c;
+  padding: 30px 25px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  font-size: 1.5rem;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  transition: all 0.4s ease;
+  line-height: 2;
+}
+
+button {
+  background: linear-gradient(to left, #ba68c8, #f06292);
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to left, #ab47bc, #ec407a);
+}
+
+#challenge.show {
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
